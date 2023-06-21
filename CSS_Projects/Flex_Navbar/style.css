@@ -1,0 +1,31 @@
+.nav {
+    margin-left: 10%;
+    width: 75%;
+    /* border: 2px solid #17a1b7; */
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-title {
+    color: #e6e6e6;
+    padding-left: 3%;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding-right: 1%;
+    width: 25%;
+    color: #e6e6e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'roboto', sans-serif
+}
+
+.btn {
+    background-color: #17a1b7;
+    margin: 10px;
+    font-family: 'roboto', sans-serif
+}

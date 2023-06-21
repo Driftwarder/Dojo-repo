@@ -1,0 +1,21 @@
+h1 {
+    color: cyan;
+    Background: black
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+    color: whitesmoke;
+    background: rebeccapurple
+}
+
+h3 {
+    text-align: right;
+    text-decoration: underline;
+    color: darkslateblue;
+    background: skyblue
+}
+.MyWhite{
+    color: azure;
+}

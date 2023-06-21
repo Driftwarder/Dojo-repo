@@ -1,0 +1,41 @@
+.githubhouse {
+    background-color: silver;
+    margin: 20px auto;
+    padding: 20px;
+}
+img {
+    height: 200px;
+}
+h1 {
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+.container1 {
+    display: flex;
+    width: 950px;
+    background-color: lightskyblue;
+    margin: 10px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.container2 {
+    display: flex;
+    width: 950px;
+    background-color: lightcoral;
+    margin: 10px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container3 {
+    display: flex;
+    width: 950px;
+    background-color: white;
+    margin: 10px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}

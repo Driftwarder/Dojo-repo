@@ -1,0 +1,72 @@
+.card {
+    margin-left: 10%;
+    width: 75%;
+    height: 300px;
+    border: 2px solid #cfcfcf;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    column-gap: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner {
+    background-color: #17a2b8;
+    height: 75px;
+}
+
+.user-circle {
+    height: 10%;
+    position: absolute;
+    left: 15%;
+    top: 3%;
+}
+
+.contact{
+margin-top: 30px;
+margin-left: 10px;
+}
+/* .map-marker{
+    height: 5%;
+} */
+
+.text {
+    /* background-color: #00eeff; */
+    line-height: 15px;
+}
+
+.details {
+/* background-color: blueviolet; */
+display: flex;
+flex-direction: row;
+list-style-type: none;
+padding-top: 10px;
+margin-left: 0;
+padding-left: 0;
+line-height: 0;
+font-weight: bold;
+}
+
+.details li.siblings:before {
+    /* margin-left: 1em; */
+    content: "|";
+    margin-right: 5px;
+    padding-left: 5px;
+}
+
+.flavor{
+    font-weight: bold;
+}
+
+.edit_button{
+    margin-top: 20px;
+}
+
+.gear{
+    height: 1em;
+    }
+
+    .mapMarker{
+        height: .75em;
+        margin-right: 10px;
+    }
