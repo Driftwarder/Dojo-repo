@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button_Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div Class="all">
+        <div class="nav-banner">
+            <div class="nav-title">
+                <p class="nav-dojonary">
+                    Dojonary
+                </p>
+            </div>
+            <div class="nav-searchbar">
+                <form>
+                    <input type="search" placeholder="Search..." />
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+            <div class="nav-loginbutton">
+                <button class="login-button" onclick="navLoginLogout(this)">Login
+                </button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="definitions-column">
+                <div class="definitions-area"><!-- Definition 1 -->
+                    <div class="definitions-left">
+                        <div class="entry-name">
+                            <p class="p-entry-name">Ninja</p>
+                        </div>
+                        <div class="plural">
+                            <p class="p-word-class">Noun</p>
+                            <p class="p-plural"> Plural: <em>ninjas</em></p>
+                        </div>
+                        <div class="likes-area">
+                            <button class="likes-button" onclick="alert('Ninja was liked')" onclick="addlikescounter">
+                                Likes
+                            </button>
+                        </div>
+                    </div>
+                    <div class="definitions-right"><!-- definition goes here -->
+                        <div class="definition">
+                            <p>A practitioner skilled in the <a
+                                    href="https://en.wikipedia.org/wiki/Japanese_people">Japanese</a>art of <a
+                                    href="https://en.wikipedia.org/wiki/Ninjutsu">Ninjutsu</a>.
+                        </div>
+                    </div>
+                </div>
+                <div class="definitions-area"> <!-- Definition 2 -->
+                    <div class="definitions-left">
+                        <div class="entry-name">
+                            <p class="p-entry-name">Ninja</p>
+                        </div>
+                        <div class="plural">
+                            <p class="p-word-class">Noun</p>
+                            <p class="p-plural"> Plural: <em>ninjas</em></p>
+                        </div>
+                        <div class="likes-area">
+                            <button class="likes-button" onclick="alert('Ninja was liked')">
+                                Likes
+                            </button>
+                        </div>
+                    </div>
+                    <div class="definitions-right"><!-- definition goes here -->
+                        <div class="definition">
+                            <p>A <a href="https://en.wikipedia.org/wiki/Programmer">programmer</a> who breaks down
+                                problems with <a href="https://en.wikipedia.org/wiki/Zen">zen</a>-like focus. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dojonary-area">
+                <div class="dojonary">
+                    <div class="defined-by-you">
+                        <p class="p-defined-by-you">Dojonary is defined by <strong>YOU</strong></p>
+                    </div>
+                    <div class="defined-by-you-button1">
+                        <button class="defined-by-you-button2" onclick="hideDojonaryButton(this)">Add
+                            Definition</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

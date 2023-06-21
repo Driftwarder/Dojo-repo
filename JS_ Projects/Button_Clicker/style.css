@@ -1,0 +1,198 @@
+.all {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav-banner {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    width: 80%;
+    height: 10vh;
+    justify-content: space-between;
+}
+
+.nav-title {
+    margin-left: 3%;
+}
+
+.nav-dojonary {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.nav-loginbutton {
+    margin-right: 3%;
+}
+
+.login-button {
+    height: 5vh;
+    width: 100PX;
+    padding: 10px 20px 10px 20 px;
+    background-color: #2b78e4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.767);
+}
+
+.content {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+    height: 93vh;
+    width: 80%;
+}
+
+.definitions-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: red; */
+    width: 60%;
+}
+
+.definitions-area {
+    display: flex;
+    /* background-color: violet; */
+    height: 36vh;
+    width: 100%;
+    border: 2px solid black;
+    box-sizing: border-box;
+    gap: 7px;
+    padding-left: 7px;
+}
+
+.definitions-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 100%;
+}
+
+.definitions-right {
+    width: 70%;
+    height: 100%;
+}
+
+.entry-name {
+    /* background-color: yellow; */
+    height: 10vh;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.p-entry-name {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5% 0 2% 0;
+    margin: 0%;
+}
+
+.plural {
+    /* background-color: green; */
+    height: 10vh;
+    width: 100%;
+}
+
+.p-word-class {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding: 2% 0 2% 0;
+    margin: 0;
+}
+
+.p-plural {
+    text-align: center;
+    font-size: large;
+    padding: 2% 0 2% 0;
+    margin: 0%;
+}
+
+.likes-area {
+    /* background-color: blue; */
+    height: 5vh;
+    width: 100%;
+}
+
+.likes-button {
+    height: 5vh;
+    width: 100%;
+    background-color: #ffd966;
+    color: #121007;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.678);
+}
+
+.definition {
+    display: flex;
+    text-align: center;
+    /* background-color: indigo; */
+    height: 100%;
+    margin-top: 16vh;
+    margin-left: 4vw;
+}
+
+.dojonary-area {
+    display: flex;
+    /* background-color: orange; */
+    width: 30%;
+    justify-content: space-between;
+}
+
+.dojonary {
+    /* background-color: green; */
+    height: 20vh;
+    width: 100%;
+    justify-content: space-between;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin-top: 7vh;
+    overflow: hidden;
+}
+
+.defined-by-you {
+    /* background-color: rgb(102, 0, 128); */
+    height: 10vh;
+    width: 100%;
+}
+
+.p-defined-by-you{
+    font-size: 24px;
+    text-align: center;
+    padding: 5% 0 2% 0;
+    margin: 0%;
+}
+
+.defined-by-you-button {    
+    background-color: yellow;
+    margin: 0%;
+    height: 10vh;
+    width: 100%;
+}
+
+.defined-by-you-button2{
+    height: 5vh;
+    width: 75%;
+    margin-left: 12%;
+    margin-top: 4%;
+    background-color: #93c47d;
+    color: #121007;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.678);
+}
