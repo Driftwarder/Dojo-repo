@@ -5,22 +5,31 @@
 }
 
 .container {
-    background-color: red;
+    /* background-color: red; */
+    border: 2px solid black;
     height: 20vh;
-    width: 40vw;
+    width: 30vw;
 }
 
 .top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: orange;
+    /* background-color: orange; */
     height: 50%;
     width: 100%;
 }
 
+.some-user-area{
+    margin-left: 5%;
+}
+
+.some-user-text{
+margin: 0;
+}
+
 .some-user {
-    background-color: yellow;
+    /* background-color: yellow; */
     height: 40%;
     width: 33.3%;
 }
@@ -35,30 +44,36 @@
 }
 
 .likes-counter {
-    background-color: green;
+    /* background-color: green; */
+    margin-top: 15%;
     height: 40%;
     width: 40%;
 }
 
 .likes-button-area {
-    background-color: blue;
+    /* background-color: blue; */
     height: 40%;
     width: 40%;
     min-width: 30px;
     min-height: 10px;
 }
 
-.likes-button{
+.likes-button {
+    background-color: #ffd966;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
     height: 100%;
     width: 100%;
 }
 
 .filler-text-area {
-    background-color: indigo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: indigo; */
     height: 50%;
     width: 100%;
 }
 
-.filler-text{
+.filler-text {
     margin: 0;
 }
